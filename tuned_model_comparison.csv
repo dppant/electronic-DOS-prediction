@@ -1,0 +1,4 @@
+Model,Best Params,Best Mean R2,Best Mean MAE,Best Mean RMSE
+Random Forest,"{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}",0.9408811789577483,-0.04873275398088558,-0.06462156425740774
+Gradient Boosting,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 500, 'subsample': 0.8}",0.9567864960928321,-0.04295296564007753,-0.05573937142825097
+XGBoost,"{'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 500, 'reg_lambda': 1.0, 'subsample': 0.8}",0.9578633152368037,-0.04258571247691507,-0.055790177283356966
